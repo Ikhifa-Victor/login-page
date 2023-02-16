@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    background: url(../imgs/1.jpg);
+    background-repeat: none;
+    background-size: cover;
+    
+
+
+}
+
+.login-card {
+    width: 400px;
+    text-align: center;
+    background: #ffff;
+    padding: 70px 30px 40px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.login-card h2 {
+    /* margin: 0 0 12px; */
+    font-weight: 600;
+    font-size: 36px;
+} 
+
+.login-card h3 {
+margin: 0 0 35px;
+font-weight: 500;
+font-size: 14px;
+color: rgba(0, 0, 0, 0.38);
+
+}
+
+.login-form {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+}
+
+.login-form input {
+height: 30px;
+background: transparent;
+border: none;
+border-bottom: 1px solid #2691d9;
+outline: none;
+}
+
+.login-form button {
+    height: 45px;
+    outline: none;
+    background: #2691de;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    
+}
+
+.f-p a {
+    color: #2691d9;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-form button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sign-up {
+ margin: 20px 0;
+ font-size: 14px;
+ color: #666666;
+}
+.sign-up a {
+    color: #2691d9;
+    text-decoration: none;
+}
